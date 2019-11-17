@@ -5,40 +5,58 @@
     text-decoration: none;
 }
 body {
-    background-color: rgb(223, 232, 241) ;
+    background: #19242c;
     font-family: Arial, sans-serif;
     color: #000000;
 }
-#container1{
-    background-color: #FF9F55 ;
-    color: #000000;
-}
-#container2{
-    background-color: #000000 ;
-    color: #000000;
-}
-#container3{
-    background-color: #FF9F55 ;
-    color: #fff;
-    text-align: center;
-}
-.entry{
-    padding: 5px 0;   
-    display: flex;
-    align-items:center;
-    justify-content: center;
+#avatarContainer{
+    color: #e4ecf1;
+    padding: 50px;
 }
 #avatar{
     border-radius: 50%;
     border-style: solid;
-    color: #000000;
-    margin-left: 45%;
+    color: #e4ecf1;
 }
 #title{
     padding: 5px 0;   
+}
+.iconBorder{
+    background: white; 
+    border-radius: 50%; 
+    border: #19242c solid;
+    height: 50px;
+}
+.heading{
+    border: #88aac2 solid;
+    text-align: center;
+    background: #47677d;
+    padding: 5px;
+    color: #e4ecf1;
+}
+#bioContainer{
+    color: #e4ecf1;
+}
+.bio{
+    padding: 60px 200px;
+    font-size: 20px;
+}
+.entry{
+    padding: 5px;   
+}
+.entry > span:first-child {
+    margin-right: 5px;
+}
+.center{
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
+}
+#footerContainer{
+    text-align: center;
+    color: #000000;
+    background: #47677d;
+    padding: 15px;
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -51,7 +69,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: rgb(32, 121, 199);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -71,8 +89,8 @@ body {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
+    background-color: rgb(32, 121, 199)ite;
+    border: 4px solid #b7d7e8;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
