@@ -23,6 +23,9 @@ body {
 #title{
     padding: 5px 0;   
 }
+.iconEmployment{
+    width: 70px;
+}
 .iconBorder{
     background: white; 
     border-radius: 50%; 
@@ -31,6 +34,9 @@ body {
 }
 .iconBorder:hover{
     border: #66fcf1 solid; 
+}
+.iconBlackBackground{
+    background: #000000;
 }
 .heading{
     border: #66fcf1 solid;
@@ -49,13 +55,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#footerContainer{
-    text-align: center;
-    color: #000000;
-    background: #45a29e;
-    padding: 15px;
-    bottom:0px;
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -158,9 +157,6 @@ body {
   }
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media(max-width: 600px) {
-    .bio{
-        padding: 2%;
-    }
    /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
