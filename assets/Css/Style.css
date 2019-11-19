@@ -84,6 +84,7 @@ body {
     position: relative;
     background-color: inherit;
     width: 50%;
+    z-index: 1;
 }
 /* The circles on the timeline */
 .timelineContainer::after {
