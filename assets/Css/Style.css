@@ -237,7 +237,7 @@ body {
 /*Rotating Squares*/
  /*fadeOut*/
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media(max-width: 600px) {
+@media(max-width: 670px) {
     .sidenav {
         height: auto;
         width: 100%;
