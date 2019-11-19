@@ -57,7 +57,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.bottom{
+.footer{
     position: fixed;
     bottom: 0;
 }
@@ -238,6 +238,21 @@ body {
  /*fadeOut*/
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media(max-width: 600px) {
+    .sidenav {
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+    #contentContainer {
+        margin-left: 0%;
+        padding: 0px;
+    }
+    .footer{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
    /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
